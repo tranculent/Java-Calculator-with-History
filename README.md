@@ -39,7 +39,7 @@ public void start() {
 ```
 This basically says: "Hey, start the calculator with a message 'Welcome to my calculator!' and keep calculating until the user hasn't chosen to exit from our program.". The **calculate()** method we are using here has not yet been intialized, but we will initialize it soon enough.
 
-After starting our program, we ask the user what operation he wants our calculator to perform (*addition, multiplication, subtraction, division*). Then we are return what the user has given us so we can store the value later on to a local variable which we will be able to manipulate.
+After starting our program, we ask the user what operation he wants our calculator to perform (*addition, multiplication, subtraction, division*). Then we return what the user has given us so we can store the value later on to a local variable which we will be able to manipulate.
 
 ```
 public String chooseOperator() {
